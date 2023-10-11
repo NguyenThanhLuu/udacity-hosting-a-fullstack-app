@@ -1,14 +1,14 @@
 branch-defaults:
   default:
-    environment: udagram-tungtt44-api-dev
+    environment: App-api-env
     group_suffix: null
 deploy:
   artifact: ./www/Archive.zip
 global:
-  application_name: udagram-tungtt44-api
+  application_name: app-api
   branch: null
-  default_ec2_keyname: tungtt44-key
-  default_platform: Node.js 14 running on 64bit Amazon Linux 2
+  default_ec2_keyname: keypair1
+  default_platform: Node.js 18 running on 64bit Amazon Linux 2023/6.0.1
   default_region: us-east-1
   include_git_submodules: true
   instance_profile: null
@@ -19,4 +19,4 @@ global:
   sc: null
   workspace_type: Application
 
-  
+
