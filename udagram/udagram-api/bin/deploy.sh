@@ -1,5 +1,5 @@
             echo "Test..2342134........"
-eb list
+eb listt
             echo "AWS_ACCESS_KEY_ID ${AWS_ACCESS_KEY_ID}" 
             echo "AWS_SECRET_ACCESS_KEY ${AWS_SECRET_ACCESS_KEY}"
 eb use App-api-env
