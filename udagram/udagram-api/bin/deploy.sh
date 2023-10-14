@@ -11,5 +11,4 @@ eb setenv AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID AWS_BUCKET=$AWS_BUCKET AWS_DEFAUL
             echo "AWS_BUCKET ${AWS_BUCKET}" 
             echo "JWT_SECRET ${JWT_SECRET}"
 eb deploy
-
             echo "END 34534534534512"
