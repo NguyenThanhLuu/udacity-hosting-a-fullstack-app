@@ -48,7 +48,7 @@ jobs:
   deploy:
     docker:
       - image: "cimg/base:stable"
-      # more setup needed for aws, node, elastic beanstalk
+      # more setup needed for aws, node, elastic beanstalk m
     steps:
       - node/install:
           node-version: '14.15' 
